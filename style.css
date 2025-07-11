@@ -1,16 +1,13 @@
 body
 {
-	background-color:black
+	background-color:black;
+	font-family:"JEFFE_";
 }
 h1
 {	
 	color:blueviolet;
 	text-align:center;
 	font-size:54px;
-}
-h1
-{
-	font-family:cursive;
 }
 h2
 {
@@ -24,9 +21,17 @@ img#clonemarrant
 {
 	margin:20px;
 	border:10px;
-	display: inline-block;
 }
 p
 {
 	font-family:cursive;
+}
+@font-face
+{
+	font-family:"JEFFE_";
+	src: url("JEFFE_.TTF") format("truetype");
+}
+id="clonemarrant"
+{
+	display: inline-block;
 }
